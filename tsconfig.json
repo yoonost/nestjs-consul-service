@@ -15,7 +15,5 @@
         "rootDir": "./lib",
         "skipLibCheck": true
     },
-    "exclude": [
-        "node_modules", "example", "dist", "**/*spec.ts"
-    ]
+    "exclude": ["node_modules", "example", "dist", "**/*spec.ts"]
 }
