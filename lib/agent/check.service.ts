@@ -1,6 +1,6 @@
 import { Injectable } from '@nestjs/common'
 import { ConsulInstance } from '../utils/instance.util'
-import {CheckData, CheckResponse, TTLUpdateData } from './check.interface'
+import { CheckData, CheckResponse, TTLUpdateData } from './check.interface'
 import { normalizeCheckUpdateOptions } from '../utils/normalizeKeys.util'
 
 @Injectable()
