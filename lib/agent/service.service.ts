@@ -15,7 +15,7 @@ export class AgentServiceService {
         return this.consul.get(`/agent/service/${serviceId}`)
     }
 
-    public async getServiceHealthByName(serviceName: string, format?: string): Promise<ServiceHealthResponse> {
+    public async getServiceHealthByName(serviceName: string, format?: string): Promise<ServiceHealthResponse[]> {
         return this.consul.get(`/agent/health/service/name/${serviceName}`, format ? { format } : {})
     }
 

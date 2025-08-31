@@ -82,5 +82,6 @@ export function normalizeCheckUpdateOptions(data: TTLUpdateData): Record<string,
 }
 
 function cleanObject(obj: Record<string, any>): Record<string, any> {
+    // eslint-disable-next-line @typescript-eslint/no-unused-vars
     return Object.fromEntries(Object.entries(obj).filter(([_, value]) => value !== undefined && value !== null))
 }

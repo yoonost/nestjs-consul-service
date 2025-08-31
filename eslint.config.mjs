@@ -12,7 +12,7 @@ export default tseslint.config(
     eslintPluginPrettierRecommended,
     {
         languageOptions: {
-            globals: { ...globals.node, ...globals.jest },
+            globals: { ...globals.node },
             sourceType: 'commonjs',
             parserOptions: {
                 projectService: true,
