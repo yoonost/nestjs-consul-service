@@ -1,22 +1,26 @@
-# NestJS Consul Service
+# ⚙️ NestJS Consul Service
 
-A modular library for integrating [Consul](https://www.consul.io/) service discovery and key-value storage into your [NestJS](https://nestjs.com/) applications.
+> A modular library for integrating [Consul](https://www.consul.io/) service discovery and key-value storage into your [NestJS](https://nestjs.com/) applications.
 
-## Features
-- Service registration and health checks
-- Key-value store management
-- Agent and service API wrappers
-- Easy integration with NestJS modules
+![NestJS](https://img.shields.io/badge/Nest.js-%23E0234E.svg?style=for-the-badge&logo=nestjs&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![Consul](https://img.shields.io/badge/Consul-ED3B7C?style=for-the-badge&logo=consul&logoColor=white)
 
-## Installation
+## ✨ Features
+- 🚦 Service registration and health checks
+- 🗝️ Key-value store management
+- 🧑‍💻 Agent and service API wrappers
+- 🤝 Easy integration with NestJS modules
+
+## 📦 Installation
 
 ```bash
 npm install nestjs-consul-service
 ```
 
-## Usage
+## 🚀 Usage
 
-### Import the Module
+### 📥 Import the Module
 
 ```typescript
 import { ConsulModule } from 'nestjs-consul-service';
@@ -30,7 +34,7 @@ import { ConsulModule } from 'nestjs-consul-service';
 export class AppModule {}
 ```
 
-### Inject and Use Services
+### 🛠️ Inject and Use Services
 
 ```typescript
 import { KvService, AgentService } from 'nestjs-consul-service';
@@ -56,14 +60,14 @@ export class MyService {
 }
 ```
 
-## API
+## 📝 API
 - `KvService`: Interact with Consul's key-value store
 - `AgentService`: Register and manage services and health checks
 - See `lib/agent/` and `lib/kv.service.ts` for more details
 
-## Contributing
+## 🤝 Contributing
 Pull requests and issues are welcome! Please follow conventional commit messages and code style.
 
-## License
+## 📄 License
 This project is licensed under the MIT License.
 

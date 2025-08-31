@@ -5,6 +5,15 @@
         "name": "Serhii Pomazan",
         "email": "sergeypomazan2005@gmail.com"
     },
+    "homepage": "https://github.com/yoonost/nestjs-consul-service",
+    "keywords": [
+        "nestjs", "consul", "service-discovery", "health-checks", "kv-store", "microservices",
+        "nestjs-module", "nestjs-service", "nestjs-integration", "nestjs-consul", "consul-client", "nodejs"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/yoonost/nestjs-consul-service"
+    },
     "version": "1.0.0",
     "license": "MIT",
     "main": "dist/index.js",
